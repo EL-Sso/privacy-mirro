@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("accelerationData").textContent = `Acceleration - X: ${acceleration.x.toFixed(2)}, Y: ${acceleration.y.toFixed(2)}, Z: ${acceleration.z.toFixed(2)}`;
         document.getElementById("rotationData").textContent = `Rotation - Alpha: ${rotationRate.alpha.toFixed(2)}, Beta: ${rotationRate.beta.toFixed(2)}, Gamma: ${rotationRate.gamma.toFixed(2)}`;
     }
-    // 새로운 코드 끝
+    
 
  
     let player = { x: 40, y: 40, size: 40, color: "red" };

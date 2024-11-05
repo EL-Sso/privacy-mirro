@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const restartButton = document.getElementById("restartGame");
     const messageElement = document.getElementById("message");
 
-    // 새로운 코드 시작 (가속도와 회전 데이터를 저장하는 부분)
+    // 가속도와 회전 데이터를 저장하는 부분
     let accelerationData = [];
     let rotationData = [];
 

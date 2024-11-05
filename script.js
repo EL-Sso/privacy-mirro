@@ -10,8 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (window.DeviceMotionEvent) {
         window.addEventListener("devicemotion", handleMotion);
-    } else {
-        alert("이 기기는 DeviceMotionEvent를 지원하지 않습니다.");
     }
 
     function handleMotion(event) {
